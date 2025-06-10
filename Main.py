@@ -85,7 +85,7 @@ if percentage > 100:
         percentage = 100
 
     # Dynamic title
-title = f"bond between {name1} and your {relation.capitalize()}💖:"
+title = f"bond between you and your {relation.capitalize()}💖:"
 
     # Dynamic messag
 if relation.lower() == "father":
