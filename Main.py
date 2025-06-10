@@ -99,7 +99,7 @@ percentage = int(str(matching * 2) + str(remaining)) if matching * 2 + remaining
     elif relation.lower() in ["siblings"]:
         message = "Siblings are fun partners of each other they just need to spend time, laugh together, play together and make things silly 😂 only this can make the siblings bond stronger 🤗."
     else:
-            message = "Even small love counts! Keep caring and stay connected 🫶relations only needs love, understanding, respect, care and support💪 keep nurturing your bond together 🥰. 
+            message = "Even small love counts! Keep caring and stay connected 🫶relations only needs love, understanding, respect, care and support💪 keep nurturing your bond together 🥰." 
 
     # Output box
     st.markdown(f"""
