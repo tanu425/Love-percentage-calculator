@@ -102,7 +102,7 @@ else:
             message = "Even small love counts! Keep caring and stay connected 🫶relations only needs love, understanding, respect, care and support💪 keep nurturing your bond together 🥰." 
 
     # Output box
-    st.markdown(f"""
+st.markdown(f"""
     <div class='result-box'>
         <div class='result-title'>{title}</div>
         <div class='percentage'>{percentage}%</div>
