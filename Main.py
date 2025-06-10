@@ -58,7 +58,7 @@ name1 = st.text_input("Enter your name:")
 name2 = st.text_input("Enter loved one's name:")
 relation = st.text_input("Enter your relation (Father/Mother/Friend/sibling/couple/other/etc.):")
 
-if st.button("Calculate ❤️") and name1 and name2 and relation:
+st.button("Calculate ❤️") and name1 and name2 and relation 
     # Preprocess input
     name1_clean = name1.lower().replace(" ", "")
     name2_clean = name2.lower().replace(" ", "")
@@ -70,7 +70,7 @@ if st.button("Calculate ❤️") and name1 and name2 and relation:
     remaining = total_letters - 2 * matching
     
     # Handle percentage calculation
-    if remaining >= 10:
+if remaining >= 10:
         # If remaining is 10 or more, take first digit and add to matching*2, then use second digit
         remaining_str = str(remaining)
         first_digit = int(remaining_str[0])
