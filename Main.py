@@ -76,7 +76,7 @@ if remaining >= 10:
         first_digit = int(remaining_str[0])
         second_digit = int(remaining_str[1]) 
 percentage = int(str(matching * 2 + first_digit) + second_digit)
-else:
+else remaining < 10:
         # If remaining is less than 10, use original logic
 percentage = int(str(matching * 2) + str(remaining)) if matching * 2 + remaining > 0 else 0
     
