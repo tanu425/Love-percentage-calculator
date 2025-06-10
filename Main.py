@@ -58,7 +58,7 @@ name1 = st.text_input("Enter your name:")
 name2 = st.text_input("Enter loved one's name:")
 relation = st.text_input("Enter your relation (Father/Mother/Friend/sibling/couple/other/etc.):")
 
-st.button("Calculate ❤️") and name1 and name2 and relation 
+if st.button("Calculate ❤️") and name1 and name2 and relation: 
     # Preprocess input
     name1_clean = name1.lower().replace(" ", "")
     name2_clean = name2.lower().replace(" ", "")
