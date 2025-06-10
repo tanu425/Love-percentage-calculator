@@ -81,7 +81,7 @@ else:
         percentage = int(str(matching * 2) + str(remaining)) if matching * 2 + remaining > 0 else 0
     
     # Ensure percentage doesn't exceed 100%
-    if percentage > 100:
+if percentage > 100:
         percentage = 100
 
     # Dynamic title
