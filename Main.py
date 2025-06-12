@@ -87,7 +87,7 @@ if percentage > 100:
     # Dynamic title
 title =f"love between you and your {relation.capitalize()}💖:"
 
-    # Dynamic messag
+    # Dynamic messages
 if relation.lower() == "father":
         message = "A father's love is forever! You're deeply bonded we cannot count the unconditional love of father 🪄🤗."
 elif relation.lower() == "mother":
@@ -99,7 +99,7 @@ elif relation.lower() in ["couple"]:
 elif relation.lower() in ["siblings"]:
         message = "Siblings are fun partners of each other they just need to spend time, laugh together, play together and make things silly 😂 only this can make the siblings bond stronger 🤗."
 else:
-            message = "Even small love counts! Keep caring and stay connected 🫶relations only needs love, understanding, respect, care and support💪 keep nurturing your bond together 🥰." 
+            message = "Keep caring and stay connected 🫶relations only needs love, understanding, respect, care and support💪 keep nurturing your golden bonds with others 💗😇
 
     # Output box
 st.markdown(f"""
